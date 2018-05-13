@@ -19,7 +19,7 @@ str(activity)
 summary(activity)
 ```
 
-Convert date to POSIXct class using lubridate package and convert interval to hour:minute format
+Convert date 
 ```{r date_conversion, message=FALSE}
 
 activity$date <- as.Date(activity$date, format = "%Y-%m-%d")
